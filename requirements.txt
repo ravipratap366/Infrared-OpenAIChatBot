@@ -1,0 +1,14 @@
+langchain==0.0.248
+faiss-cpu==1.7.4
+openai==0.27.8
+unstructured==0.8.7
+tiktoken==0.4.0
+flask
+libmagic
+python-magic-bin==0.4.14
+
+
+# fire the following commands to use it in your anaconda prompt
+# conda install -c pytorch faiss-cpu
+# conda install -c conda-forge faiss
+

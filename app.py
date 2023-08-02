@@ -29,7 +29,7 @@ data = loaders.load()
 text_splitter = CharacterTextSplitter(separator='\n', chunk_size=1000, chunk_overlap=200)
 docs = text_splitter.split_documents(data)
 
-with open("newEmbeddingsOpenAI.pkl", "rb") as f:
+with open("final_openai.pkl", "rb") as f:
     vectorStore = pickle.load(f)
 
 llm = OpenAI(temperature=0, model_name='text-davinci-003')

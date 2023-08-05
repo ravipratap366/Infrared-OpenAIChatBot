@@ -13,6 +13,7 @@ import config
 app = Flask(__name__)
 
 # Load Langchain model and vector store
+# this is for git check
 
 
 os.environ["OPENAI_API_KEY"] = config.OPENAI_API_KEY
